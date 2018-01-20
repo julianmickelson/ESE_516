@@ -36,7 +36,6 @@
     <option id="sam0.drivers.sercom.usart" value="Add" config="callback" content-id="Atmel.ASF" />
     <option id="sam0.drivers.system" value="Add" config="" content-id="Atmel.ASF" />
     <option id="sam0.utils.stdio.stdio_serial" value="Add" config="" content-id="Atmel.ASF" />
-    <option id="common2.services.delay" value="Add" config="systick" content-id="Atmel.ASF" />
     <option id="common.applications.user_application.xplained_pro2" value="Add" config="" content-id="Atmel.ASF" />
     <option id="common.utils" value="Add" config="" content-id="Atmel.ASF" />
     <option id="sam0.utils.cmsis.samd21.source.template" value="Add" config="" content-id="Atmel.ASF" />
@@ -226,14 +225,11 @@
     <file path="src/ASF/sam0/drivers/sercom/usart/quick_start_dma/qs_usart_dma_use.h" framework="" version="3.35.1" source="sam0\drivers\sercom\usart\quick_start_dma\qs_usart_dma_use.h" changed="False" content-id="Atmel.ASF" />
     <file path="src/ASF/sam0/utils/stdio/read.c" framework="" version="3.35.1" source="sam0\utils\stdio\read.c" changed="False" content-id="Atmel.ASF" />
     <file path="src/ASF/sam0/utils/stdio/write.c" framework="" version="3.35.1" source="sam0\utils\stdio\write.c" changed="False" content-id="Atmel.ASF" />
-    <file path="src/ASF/common2/services/delay/sam0/systick_counter.c" framework="" version="3.35.1" source="common2\services\delay\sam0\systick_counter.c" changed="False" content-id="Atmel.ASF" />
-    <file path="src/ASF/common2/services/delay/delay.h" framework="" version="3.35.1" source="common2\services\delay\delay.h" changed="False" content-id="Atmel.ASF" />
-    <file path="src/ASF/common2/services/delay/sam0/systick_counter.h" framework="" version="3.35.1" source="common2\services\delay\sam0\systick_counter.h" changed="False" content-id="Atmel.ASF" />
   </files>
   <documentation help="http://asf.atmel.com/docs/3.35.1/common.applications.user_application.xplained_pro2.samw25_xplained_pro/html/index.html" />
   <offline-documentation help="" />
   <dependencies>
-    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.25.0" />
+    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.26.0" />
   </dependencies>
   <project id="common.applications.user_application.xplained_pro2.samw25_xplained_pro" value="Add" config="" content-id="Atmel.ASF" />
   <board id="board.samw25_xplained_pro" value="Add" config="" content-id="Atmel.ASF" />
@@ -255,7 +251,6 @@
       <Value>__SAMD21G18A__</Value>
       <Value>ARM_MATH_CM0PLUS=true</Value>
       <Value>USART_CALLBACK_MODE=true</Value>
-      <Value>SYSTICK_MODE</Value>
     </ListValues>
   </armgcc.compiler.symbols.DefSymbols>
   <armgcc.compiler.directories.IncludePaths>
@@ -288,8 +283,6 @@
       <Value>../src/ASF/common/services/serial</Value>
       <Value>../src/ASF/sam0/drivers/sercom</Value>
       <Value>../src/ASF/sam0/drivers/sercom/usart</Value>
-      <Value>../src/ASF/common2/services/delay</Value>
-      <Value>../src/ASF/common2/services/delay/sam0</Value>
     </ListValues>
   </armgcc.compiler.directories.IncludePaths>
   <armgcc.compiler.optimization.level>Optimize for size (-Os)</armgcc.compiler.optimization.level>
@@ -341,11 +334,9 @@
       <Value>../src/ASF/common/services/serial</Value>
       <Value>../src/ASF/sam0/drivers/sercom</Value>
       <Value>../src/ASF/sam0/drivers/sercom/usart</Value>
-      <Value>../src/ASF/common2/services/delay</Value>
-      <Value>../src/ASF/common2/services/delay/sam0</Value>
     </ListValues>
   </armgcc.assembler.general.IncludePaths>
-  <armgcc.preprocessingassembler.general.AssemblerFlags>-DARM_MATH_CM0PLUS=true -DBOARD=SAMW25_XPLAINED_PRO -D__SAMD21G18A__ -DUSART_CALLBACK_MODE=true -DSYSTICK_MODE</armgcc.preprocessingassembler.general.AssemblerFlags>
+  <armgcc.preprocessingassembler.general.AssemblerFlags>-DARM_MATH_CM0PLUS=true -DBOARD=SAMW25_XPLAINED_PRO -D__SAMD21G18A__ -DUSART_CALLBACK_MODE=true</armgcc.preprocessingassembler.general.AssemblerFlags>
   <armgcc.preprocessingassembler.general.IncludePaths>
     <ListValues>
       <Value>../src/ASF/common/boards</Value>
@@ -376,8 +367,6 @@
       <Value>../src/ASF/common/services/serial</Value>
       <Value>../src/ASF/sam0/drivers/sercom</Value>
       <Value>../src/ASF/sam0/drivers/sercom/usart</Value>
-      <Value>../src/ASF/common2/services/delay</Value>
-      <Value>../src/ASF/common2/services/delay/sam0</Value>
     </ListValues>
   </armgcc.preprocessingassembler.general.IncludePaths>
 </ArmGcc>
@@ -398,7 +387,6 @@
       <Value>__SAMD21G18A__</Value>
       <Value>ARM_MATH_CM0PLUS=true</Value>
       <Value>USART_CALLBACK_MODE=true</Value>
-      <Value>SYSTICK_MODE</Value>
     </ListValues>
   </armgcc.compiler.symbols.DefSymbols>
   <armgcc.compiler.directories.IncludePaths>
@@ -431,8 +419,6 @@
       <Value>../src/ASF/common/services/serial</Value>
       <Value>../src/ASF/sam0/drivers/sercom</Value>
       <Value>../src/ASF/sam0/drivers/sercom/usart</Value>
-      <Value>../src/ASF/common2/services/delay</Value>
-      <Value>../src/ASF/common2/services/delay/sam0</Value>
     </ListValues>
   </armgcc.compiler.directories.IncludePaths>
   <armgcc.compiler.optimization.level>Optimize (-O1)</armgcc.compiler.optimization.level>
@@ -485,12 +471,10 @@
       <Value>../src/ASF/common/services/serial</Value>
       <Value>../src/ASF/sam0/drivers/sercom</Value>
       <Value>../src/ASF/sam0/drivers/sercom/usart</Value>
-      <Value>../src/ASF/common2/services/delay</Value>
-      <Value>../src/ASF/common2/services/delay/sam0</Value>
     </ListValues>
   </armgcc.assembler.general.IncludePaths>
   <armgcc.assembler.debugging.DebugLevel>Default (-g)</armgcc.assembler.debugging.DebugLevel>
-  <armgcc.preprocessingassembler.general.AssemblerFlags>-DARM_MATH_CM0PLUS=true -DBOARD=SAMW25_XPLAINED_PRO -D__SAMD21G18A__ -DUSART_CALLBACK_MODE=true -DSYSTICK_MODE</armgcc.preprocessingassembler.general.AssemblerFlags>
+  <armgcc.preprocessingassembler.general.AssemblerFlags>-DARM_MATH_CM0PLUS=true -DBOARD=SAMW25_XPLAINED_PRO -D__SAMD21G18A__ -DUSART_CALLBACK_MODE=true</armgcc.preprocessingassembler.general.AssemblerFlags>
   <armgcc.preprocessingassembler.general.IncludePaths>
     <ListValues>
       <Value>../src/ASF/common/boards</Value>
@@ -521,8 +505,6 @@
       <Value>../src/ASF/common/services/serial</Value>
       <Value>../src/ASF/sam0/drivers/sercom</Value>
       <Value>../src/ASF/sam0/drivers/sercom/usart</Value>
-      <Value>../src/ASF/common2/services/delay</Value>
-      <Value>../src/ASF/common2/services/delay/sam0</Value>
     </ListValues>
   </armgcc.preprocessingassembler.general.IncludePaths>
   <armgcc.preprocessingassembler.debugging.DebugLevel>Default (-Wa,-g)</armgcc.preprocessingassembler.debugging.DebugLevel>
@@ -532,10 +514,6 @@
   <ItemGroup>
     <Folder Include="src\" />
     <Folder Include="src\ASF\" />
-    <Folder Include="src\ASF\common2\" />
-    <Folder Include="src\ASF\common2\services\" />
-    <Folder Include="src\ASF\common2\services\delay\" />
-    <Folder Include="src\ASF\common2\services\delay\sam0\" />
     <Folder Include="src\ASF\common\" />
     <Folder Include="src\ASF\common\boards\" />
     <Folder Include="src\ASF\common\services\" />
@@ -593,15 +571,6 @@
     <Folder Include="src\config\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="src\ASF\common2\services\delay\sam0\systick_counter.h">
-      <SubType>compile</SubType>
-    </None>
-    <None Include="src\ASF\common2\services\delay\delay.h">
-      <SubType>compile</SubType>
-    </None>
-    <Compile Include="src\ASF\common2\services\delay\sam0\systick_counter.c">
-      <SubType>compile</SubType>
-    </Compile>
     <Compile Include="src\ASF\sam0\drivers\sercom\sercom.c">
       <SubType>compile</SubType>
     </Compile>
