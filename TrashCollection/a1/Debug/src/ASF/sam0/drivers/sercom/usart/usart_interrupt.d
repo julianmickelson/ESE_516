@@ -6,9 +6,15 @@ src/ASF/sam0/drivers/sercom/usart/usart_interrupt.d \
  ../src/ASF/sam0/utils/compiler.h \
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.2.1\include\stddef.h \
  ../src/ASF/common/utils/parts.h ../src/ASF/sam0/utils/status_codes.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.2.1\include\stdint.h \
+=======
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stddef.h \
+ ../src/ASF/common/utils/parts.h ../src/ASF/sam0/utils/status_codes.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdint.h \
+>>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
 =======
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stddef.h \
  ../src/ASF/common/utils/parts.h ../src/ASF/sam0/utils/status_codes.h \
@@ -34,7 +40,11 @@ src/ASF/sam0/drivers/sercom/usart/usart_interrupt.d \
  ../src/ASF/sam0/utils/header_files/io.h \
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.2.1\include\stdbool.h \
+=======
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdbool.h \
+>>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
 =======
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdbool.h \
 >>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
@@ -111,7 +121,11 @@ src/ASF/sam0/drivers/sercom/usart/usart_interrupt.d \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\cdefs.h \
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.2.1\include\stdarg.h \
+=======
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdarg.h \
+>>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
 =======
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdarg.h \
 >>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
@@ -161,7 +175,11 @@ src/ASF/sam0/drivers/sercom/usart/usart_interrupt.d \
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.2.1\include\stddef.h:
+=======
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stddef.h:
+>>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
 =======
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stddef.h:
 >>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
@@ -175,7 +193,11 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gc
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.2.1\include\stdint.h:
+=======
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdint.h:
+>>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
 =======
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdint.h:
 >>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
@@ -211,7 +233,11 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\arm-no
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.2.1\include\stdbool.h:
+=======
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdbool.h:
+>>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
 =======
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdbool.h:
 >>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
@@ -357,7 +383,11 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\arm-no
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.2.1\include\stdarg.h:
+=======
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdarg.h:
+>>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
 =======
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdarg.h:
 >>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b

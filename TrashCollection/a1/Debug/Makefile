@@ -267,7 +267,11 @@ src/ASF/common2/services/delay/sam0/%.o: ../src/ASF/common2/services/delay/sam0/
 	@echo Building file: $<
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@echo Invoking: ARM/GNU C Compiler : 6.2.1
+=======
+	@echo Invoking: ARM/GNU C Compiler : 6.3.1
+>>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
 =======
 	@echo Invoking: ARM/GNU C Compiler : 6.3.1
 >>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
@@ -282,7 +286,11 @@ src/ASF/sam0/drivers/sercom/%.o: ../src/ASF/sam0/drivers/sercom/%.c
 	@echo Building file: $<
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@echo Invoking: ARM/GNU C Compiler : 6.2.1
+=======
+	@echo Invoking: ARM/GNU C Compiler : 6.3.1
+>>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
 =======
 	@echo Invoking: ARM/GNU C Compiler : 6.3.1
 >>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
@@ -297,7 +305,11 @@ src/ASF/sam0/utils/stdio/%.o: ../src/ASF/sam0/utils/stdio/%.c
 	@echo Building file: $<
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@echo Invoking: ARM/GNU C Compiler : 6.2.1
+=======
+	@echo Invoking: ARM/GNU C Compiler : 6.3.1
+>>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
 =======
 	@echo Invoking: ARM/GNU C Compiler : 6.3.1
 >>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
@@ -312,7 +324,11 @@ src/ASF/sam0/drivers/sercom/usart/%.o: ../src/ASF/sam0/drivers/sercom/usart/%.c
 	@echo Building file: $<
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@echo Invoking: ARM/GNU C Compiler : 6.2.1
+=======
+	@echo Invoking: ARM/GNU C Compiler : 6.3.1
+>>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
 =======
 	@echo Invoking: ARM/GNU C Compiler : 6.3.1
 >>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
@@ -327,7 +343,11 @@ src/ASF/common/utils/interrupt/%.o: ../src/ASF/common/utils/interrupt/%.c
 	@echo Building file: $<
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@echo Invoking: ARM/GNU C Compiler : 6.2.1
+=======
+	@echo Invoking: ARM/GNU C Compiler : 6.3.1
+>>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
 =======
 	@echo Invoking: ARM/GNU C Compiler : 6.3.1
 >>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
@@ -342,7 +362,11 @@ src/ASF/sam0/boards/samw25_xplained_pro/%.o: ../src/ASF/sam0/boards/samw25_xplai
 	@echo Building file: $<
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@echo Invoking: ARM/GNU C Compiler : 6.2.1
+=======
+	@echo Invoking: ARM/GNU C Compiler : 6.3.1
+>>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
 =======
 	@echo Invoking: ARM/GNU C Compiler : 6.3.1
 >>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
@@ -357,7 +381,11 @@ src/ASF/sam0/drivers/port/%.o: ../src/ASF/sam0/drivers/port/%.c
 	@echo Building file: $<
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@echo Invoking: ARM/GNU C Compiler : 6.2.1
+=======
+	@echo Invoking: ARM/GNU C Compiler : 6.3.1
+>>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
 =======
 	@echo Invoking: ARM/GNU C Compiler : 6.3.1
 >>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
@@ -372,7 +400,11 @@ src/ASF/sam0/drivers/system/clock/clock_samd21_r21_da_ha1/%.o: ../src/ASF/sam0/d
 	@echo Building file: $<
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@echo Invoking: ARM/GNU C Compiler : 6.2.1
+=======
+	@echo Invoking: ARM/GNU C Compiler : 6.3.1
+>>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
 =======
 	@echo Invoking: ARM/GNU C Compiler : 6.3.1
 >>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
@@ -387,7 +419,11 @@ src/ASF/sam0/drivers/system/interrupt/%.o: ../src/ASF/sam0/drivers/system/interr
 	@echo Building file: $<
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@echo Invoking: ARM/GNU C Compiler : 6.2.1
+=======
+	@echo Invoking: ARM/GNU C Compiler : 6.3.1
+>>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
 =======
 	@echo Invoking: ARM/GNU C Compiler : 6.3.1
 >>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
@@ -402,7 +438,11 @@ src/ASF/sam0/drivers/system/pinmux/%.o: ../src/ASF/sam0/drivers/system/pinmux/%.
 	@echo Building file: $<
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@echo Invoking: ARM/GNU C Compiler : 6.2.1
+=======
+	@echo Invoking: ARM/GNU C Compiler : 6.3.1
+>>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
 =======
 	@echo Invoking: ARM/GNU C Compiler : 6.3.1
 >>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
@@ -417,7 +457,11 @@ src/ASF/sam0/drivers/system/%.o: ../src/ASF/sam0/drivers/system/%.c
 	@echo Building file: $<
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@echo Invoking: ARM/GNU C Compiler : 6.2.1
+=======
+	@echo Invoking: ARM/GNU C Compiler : 6.3.1
+>>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
 =======
 	@echo Invoking: ARM/GNU C Compiler : 6.3.1
 >>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
@@ -432,7 +476,11 @@ src/ASF/sam0/utils/cmsis/samd21/source/gcc/%.o: ../src/ASF/sam0/utils/cmsis/samd
 	@echo Building file: $<
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@echo Invoking: ARM/GNU C Compiler : 6.2.1
+=======
+	@echo Invoking: ARM/GNU C Compiler : 6.3.1
+>>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
 =======
 	@echo Invoking: ARM/GNU C Compiler : 6.3.1
 >>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
@@ -447,7 +495,11 @@ src/ASF/sam0/utils/cmsis/samd21/source/%.o: ../src/ASF/sam0/utils/cmsis/samd21/s
 	@echo Building file: $<
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@echo Invoking: ARM/GNU C Compiler : 6.2.1
+=======
+	@echo Invoking: ARM/GNU C Compiler : 6.3.1
+>>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
 =======
 	@echo Invoking: ARM/GNU C Compiler : 6.3.1
 >>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
@@ -462,7 +514,11 @@ src/ASF/sam0/utils/syscalls/gcc/%.o: ../src/ASF/sam0/utils/syscalls/gcc/%.c
 	@echo Building file: $<
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@echo Invoking: ARM/GNU C Compiler : 6.2.1
+=======
+	@echo Invoking: ARM/GNU C Compiler : 6.3.1
+>>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
 =======
 	@echo Invoking: ARM/GNU C Compiler : 6.3.1
 >>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
@@ -477,7 +533,11 @@ src/%.o: ../src/%.c
 	@echo Building file: $<
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@echo Invoking: ARM/GNU C Compiler : 6.2.1
+=======
+	@echo Invoking: ARM/GNU C Compiler : 6.3.1
+>>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
 =======
 	@echo Invoking: ARM/GNU C Compiler : 6.3.1
 >>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
@@ -514,7 +574,11 @@ $(OUTPUT_FILE_PATH): $(OBJS) $(USER_OBJS) $(OUTPUT_FILE_DEP) $(LIB_DEP) $(LINKER
 	@echo Building target: $@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@echo Invoking: ARM/GNU Linker : 6.2.1
+=======
+	@echo Invoking: ARM/GNU Linker : 6.3.1
+>>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
 =======
 	@echo Invoking: ARM/GNU Linker : 6.3.1
 >>>>>>> aa07ebccdc7af9bd477996633d01cfcf9880138b
