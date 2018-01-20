@@ -78,9 +78,9 @@ void configure_usart_callbacks(void)
 
 int main (void)
 {
-	//initializing
-	//system_init();
-	/*system_interrupt_enable_global();
+	/*initializing
+	system_init();
+	system_interrupt_enable_global();
 	delay_init(); //http://asf.atmel.com/docs/3.32.0/samd21/html/group__group__common__services__delay.html
 	board_init();*/
 	configure_usart();
